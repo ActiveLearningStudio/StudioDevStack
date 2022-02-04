@@ -12,6 +12,7 @@ mkdir -p {mysqldata,postgresdata,pgadmin-data}
 git clone https://github.com/ActiveLearningStudio/ActiveLearningStudio-API.git apinew
 cp -r api/storagetoclone/* apinew/storage
 rm -rf api
+mv apinew api
 
 cp env.api api/.env
 
