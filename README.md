@@ -47,6 +47,7 @@ CurrikiStudio enables you to create interactive learning content and publish the
 # Installation
 
     git clone https://github.com/ActiveLearningStudio/StudioSingleServer.git curriki
+    cd curriki
 	chmod +x install.sh
 	./install.sh
 
