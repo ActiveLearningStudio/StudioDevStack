@@ -3,9 +3,9 @@
 # rm -rf api
 # rm -rf client
 
-git clone https://github.com/ActiveLearningStudio/StudioSingleServer.git /currikinew
+# git clone https://github.com/ActiveLearningStudio/StudioSingleServer.git /currikinew
 
-cd /currikinew
+# cd /currikinew
 
 mkdir -p {mysqldata,postgresdata,pgadmin-data}
 
