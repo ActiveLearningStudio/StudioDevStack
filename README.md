@@ -3,6 +3,18 @@
 CurrikiStudio enables you to create interactive learning content and publish them anywhere like Google Classroom, LMSs etc
 
 
+# Pre-Requisites
+
+1. Docker version 19 or above
+2. Ubuntu 18.04 / 20.04, CentOS 8
+
+
+# Docker Instructions
+
+## For Ubuntu
+
+## For CentOS 8
+
 
 # Components
 
@@ -27,9 +39,7 @@ Following applications are the part of CurrikiStudio
 2. 4 VCPUs
 3. Tried on Ubuntu, Amaozon Linux, Oracle Linux. This list will grow after testing
 
-## Pre-Requisites
 
-1. Docker version 19 or above
 
 # Infrastructure
 
