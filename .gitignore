@@ -1,2 +1,5 @@
+postgresdata
+mysqldata
+pgadmin-data
 /backup
 setup.sh

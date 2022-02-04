@@ -9,9 +9,20 @@ CurrikiStudio enables you to create interactive learning content and publish the
 2. Ubuntu 18.04 / 20.04, CentOS 8
 
 
-# Docker Instructions
+# Docker / Docker-compose Instructions
 
 ## For Ubuntu
+
+sudo apt-get update -y
+sudo apt-get install git -y
+sudo apt-get install apt-transport-https ca-certificates curl gnupg -y
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+            
+sudo curl -L https://github.com/docker/compose/releases/download/1.28.4/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 
 ## For CentOS 8
 
